@@ -66,7 +66,7 @@ I found this on the stack overflow.
 
 **rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi**
 
-# <a id="lvl2"></a>Level 2→ Level 3
+# <a id="lvl3"></a>Level 2→ Level 3
 ### Level Goal
 The password for the next level is stored in a file called spaces in this filename located in the home directory.
 
@@ -74,7 +74,7 @@ The password for the next level is stored in a file called spaces in this filena
 
 **aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG**
 
-# <a id="lvl3"></a>Level 3→ Level 4
+# <a id="lvl4"></a>Level 3→ Level 4
 ### Level Goal
 The password for the next level is stored in a hidden file in the inhere directory.
 
@@ -84,7 +84,7 @@ So we know it is in a hidden file in inhere. We use ls with -a, which shows all 
 
 **2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
 
-# <a id="lvl4"></a>Level 4→ Level 5
+# <a id="lvl5"></a>Level 4→ Level 5
 ### Level Goal
 The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 ![image](https://github.com/Anushri-Sakhardande/Cryptonite_STP/assets/118385974/a9817c62-e9de-4001-885e-db49ceb626f9)
@@ -98,7 +98,7 @@ File 7 is an ASCII file containing our coveted flag
 **lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR**
 
 
-# <a id="lvl5"></a>Level 5→ Level 6
+# <a id="lvl6"></a>Level 5→ Level 6
 ### Level Goal
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 human-readable
@@ -119,7 +119,7 @@ Combined these with find. I needed some help with typing it correctly.
 **P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU**
 
 
-# <a id="lvl6"></a>Level 6→ Level 7
+# <a id="lvl7"></a>Level 6→ Level 7
 ### Level Goal
 The password for the next level is stored somewhere on the server and has all of the following properties:
 owned by user bandit7
@@ -134,7 +134,7 @@ Trying to find it yields a ton of permission-denied messages.
 
 **z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S**
 
-# <a id="lvl7"></a>Level 7→ Level 8
+# <a id="lvl8"></a>Level 7→ Level 8
 ### Level Goal
 The password for the next level is stored in the file data.txt next to the word millionth.
 
@@ -143,7 +143,7 @@ The password for the next level is stored in the file data.txt next to the word 
 Used grep, which helps find the particular pattern in the file
 **TESKZC0XvTetK0S9xNwm25STk5iWrBvP**
 
-# <a id="lvl8"></a>Level 8→ Level 9
+# <a id="lvl9"></a>Level 8→ Level 9
 ## Level Goal
 The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
 Used uniq command along with sort to find lines that are not repeated
@@ -152,7 +152,7 @@ Used uniq command along with sort to find lines that are not repeated
 
 **EN632PlfYiZbn3PhVK3XOGSlNInNE00t**
 
-# <a id="lvl9"></a>Level 9→ Level 10
+# <a id="lvl10"></a>Level 9→ Level 10
 ### Level Goal
 The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 String command helps find the human-readable strings and grep to find the === pattern.
@@ -161,7 +161,7 @@ String command helps find the human-readable strings and grep to find the === pa
 
 **G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s**
 
-# <a id="lvl10"></a>Level 10→ Level 11
+# <a id="lvl11"></a>Level 10→ Level 11
 Level Goal
 The password for the next level is stored in the file data.txt, which contains base64 encoded data.
 Used the base64 command to decode the text
@@ -170,7 +170,7 @@ Used the base64 command to decode the text
 
 **6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM**
 
-# <a id="lvl11"></a>Level 11→ Level 12
+# <a id="lvl12"></a>Level 11→ Level 12
 ### Level Goal
 The password for the next level is stored in the file data.txt, where 13 positions have rotated all lowercase (a-z) and uppercase (A-Z) letters
 tr - translate shifted each character by 13 using the translate command
@@ -180,7 +180,7 @@ tr - translate shifted each character by 13 using the translate command
 JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
 
-# <a id="lvl12"></a>Level 12→ Level 13
+# <a id="lvl13"></a>Level 12→ Level 13
 ### Level Goal
 The password for the next level is stored in the file data.txt, which is a hex dump of a file that has been repeatedly compressed. For this level, creating a directory under /tmp may be helpful in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
@@ -228,7 +228,7 @@ Now a gzip
 
 Finally, we get the password **wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw**
 
-# <a id="lvl13"></a>Level 13→ Level 14
+# <a id="lvl14"></a>Level 13→ Level 14
 ### Level Goal
 The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. Note: localhost is a hostname that refers to the machine you are working on
 
@@ -254,7 +254,7 @@ And we get the password according to the instructions.
 
 **fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq**
 
-# <a id="lvl14"></a>Level 14→ Level 15
+# <a id="lvl15"></a>Level 14→ Level 15
 ### Level Goal
 The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
 
@@ -264,7 +264,7 @@ Netcat nc is used to send and receive data over a network connection. So we conn
 
 **jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt**
 
-# <a id="lvl15"></a>Level 15→ Level 16
+# <a id="lvl16"></a>Level 15→ Level 16
 ### Level Goal
 The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.
 Helpful note: Getting “HEARTBEATING” and “Read R BLOCK”? Use -ign_eof and read the “CONNECTED COMMANDS” section in the manpage. Next to ‘R’ and ‘Q’, the ‘B’ command also works in this version of that command…
@@ -279,7 +279,7 @@ I then put in the password.
 
 **JQttfApK4SeyHwDlI9SXGR50qclOAil1**
 
-# <a id="lvl16"></a>Level 16→ Level 17
+# <a id="lvl17"></a>Level 16→ Level 17
 ## Level Goal
 The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
 A service is said to be “listening” on a port when it is binding to a port/protocol/IP address combination to wait for requests from clients of the service.
@@ -296,7 +296,7 @@ I put the private key into sshkey2.private and made sure the permissions were co
 And proceed to use that to log in to the next level.
 ![image](https://github.com/Anushri-Sakhardande/Cryptonite_STP/assets/118385974/8589bc18-e938-4374-a154-2c812acfda2b)
 
-# <a id="lvl17"></a>Level 17→ Level 18
+# <a id="lvl18"></a>Level 17→ Level 18
 ### Level Goal
 There are 2 files in the homedirectory: passwords.old and passwords.new. The password for the next level is in passwords.new and is the only line that has been changed between passwords.old and passwords.new
 NOTE: if you have solved this level and see ‘Byebye!’ when trying to log into bandit18, this is related to the next level, bandit19
@@ -305,7 +305,7 @@ Diff command is used to find the difference between two files.
 
 **hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg**
 
-# <a id="lvl8"></a>Level 18→ Level 19
+# <a id="lvl9"></a>Level 18→ Level 19
 
 ## Level Goal
 The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.
@@ -319,7 +319,7 @@ We can access the readme by appending commands after the ssh connection details 
 
 **awhqfNnAbc1naukrpqDYcF95h7HoMTrC**
 
-# <a id="lvl19"></a>Level 19→ Level 20
+# <a id="lvl20"></a>Level 19→ Level 20
 ### Level Goal
 To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary
 
@@ -332,7 +332,7 @@ So we use the uid of bandit20 access.
 
 **VxCazJaVykI6W36BkBU0mJTCM8rR95XT**
 
-# <a id="lvl20"></a>Level 20→ Level 21
+# <a id="lvl21"></a>Level 20→ Level 21
 ### Level Goal
 There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
 NOTE: Try connecting to your own network daemon to see if it works as you think
@@ -344,7 +344,7 @@ We now run the setuid according to the information given and enter the password 
 
 **NvEJF7oVjkddltPSrdKEFOllh9V1IBcq**
 
-# <a id="lvl21"></a>Level 21→ Level 22
+# <a id="lvl22"></a>Level 21→ Level 22
 ### Level Goal
 A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
 According to the instructions, I looked up the directory.
@@ -354,7 +354,7 @@ The cronjob creates a file which I simply cat.
 
 **WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff**
 
-# <a id="lvl22"></a>Level 22→ Level 23
+# <a id="lvl23"></a>Level 22→ Level 23
 ### Level Goal
 A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
 NOTE: Looking at shell scripts written by other people is a very useful skill. The script for this level is intentionally made easy to read. If you are having problems understanding what it does, try executing it to see the debug information it prints.
@@ -367,7 +367,7 @@ This time I received the set of instructions which I simply followed along with 
 **QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G**
 
 
-# <a id="lvl23"></a>Level 23→ Level 24
+# <a id="lvl24"></a>Level 23→ Level 24
 ### Level Goal
 A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
 NOTE: This level requires you to create your own first shell-script. This is a very big step and you should be proud of yourself when you beat this level!
