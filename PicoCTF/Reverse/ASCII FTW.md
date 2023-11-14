@@ -8,6 +8,7 @@ This program has constructed the flag using hex ascii values. Identify the flag 
 
 ## Solution
 ![image](https://github.com/Anushri-Sakhardande/Cryptonite_STP/assets/118385974/479aae8c-0a44-41f6-ab9f-43caadbc6689)
+
 This is what it says after executing.
 
 ![image](https://github.com/Anushri-Sakhardande/Cryptonite_STP/assets/118385974/24ad6fd3-b97c-4dd6-b2ad-7a9b6dd497e4)
@@ -15,6 +16,7 @@ This is what it says after executing.
 Used Ghidra to decompile the file.
 
 ![image](https://github.com/Anushri-Sakhardande/Cryptonite_STP/assets/118385974/7d6aee2f-399a-4173-9562-1152cd285446)
+
 Contains the ASCII value of each character in the flag
 And plugged those ASCII values into a converter.
 
